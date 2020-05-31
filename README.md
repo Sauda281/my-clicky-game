@@ -6,4 +6,4 @@ A memory game that users click pictures randomly, while avoiding to click the sa
 - React Dom
 
 # Screenshot
-![]()
+![home page](clicky-game/src/components/assets/clickyjpg.png)
