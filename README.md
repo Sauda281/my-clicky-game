@@ -4,3 +4,6 @@ A memory game that users click pictures randomly, while avoiding to click the sa
 # Technologies used
 - React
 - React Dom
+
+# Screenshot
+![]()
