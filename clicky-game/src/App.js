@@ -10,7 +10,7 @@ class App extends Component{
     flowers,
     clickedFlowerIds: [],
     score: 0,
-    goal: 8,
+    goal: 12,
     status: ""
   };
 
@@ -23,8 +23,8 @@ class App extends Component{
     }else{
       clickedFlowerIds.push(id)
 
-      if(clickedFlowerIds.length === 8){
-        this.setState({score: 8, status: "Congratulations, you won!. Click to play again!", clickedFlowerIds: []});
+      if(clickedFlowerIds.length === 12){
+        this.setState({score: 12, status: "Congratulations, you won!. Click to play again!", clickedFlowerIds: []});
         console.log('You Win');
         return;
       }
@@ -48,7 +48,7 @@ class App extends Component{
         </p>
         </header>
         <Score total={this.state.score}
-        goal={8}
+        goal={12}
         status={this.state.status} />
 
         <Wrapper>
